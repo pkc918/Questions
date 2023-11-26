@@ -1,0 +1,1 @@
+> 在 vue3 中不能对 Echarts 实例用 ref reactive等对象存储，会影响到 Echarts 的属性读取，需要使用一个单纯的变量或者使用 shallowRef
